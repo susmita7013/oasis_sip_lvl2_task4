@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('users', JSON.stringify(existingUsers));
       regError.textContent = 'Registration successful!';
       alert('Registration successful!');
-      window.location.href = 'login.html';
+      window.location.href = 'index.html';
     }
   });
 });
